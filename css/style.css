@@ -8,6 +8,10 @@ a{
     text-decoration: none;
     color: black;
 }
+ul{
+    list-style: none;
+    padding: 0;
+}
 /* LAYOUT */
 .container{
     max-width: 1280px;
@@ -197,6 +201,13 @@ section{
     border-radius: 20px;
 
 }
+.bs-ribbon{
+    position: relative;
+}
+.ribbon{
+    position: absolute;
+    right: -50px;
+}
 
 /* Experience */
 .bg-img{
@@ -267,4 +278,19 @@ section{
 }
 .footer{
     margin-top: -5rem;
+    color: white;
+}
+.ftr-row{
+    margin: 2rem 0;
+}
+footer .column-3{
+    margin: 4rem 0;
+}
+.footer a{
+    color: white;
+}
+.search-bar{
+    border-radius: 20px;
+    
+
 }
