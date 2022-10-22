@@ -161,17 +161,12 @@ section{
 }
    
 
-/* EXPERIENCE */
-.post-image{
-    width: 100%;
-}
-.exp-row{
-    gap: 0;
-}
-
 /* Business-strategy */
 .team-img{
+    margin: 3rem 0rem;
+    margin-left: 6rem;
     width: 100%;
+    
 }
 .bs-btn{
     border: 1px solid #10283a;
@@ -182,21 +177,17 @@ section{
 .bs-btns a{
     margin: 2rem 0;
 }
-.bs-header{
-    justify-content: space-between;
-}
 .bs-txt{
-   margin: 1rem;
+   margin-top: -5rem;
+   margin-left: 2rem;
 }
-.bs-row2{
+/* .bs-row2{
     margin: 3rem 0;
-}
+} */
 .bs-row2 h2{
     font-size: 3rem;
 }
-.bs-row img{
-    width: 80%;
-}
+
 .business-strategy .bg-color{
     border-radius: 20px;
 
@@ -206,14 +197,18 @@ section{
 }
 .ribbon{
     position: absolute;
-    right: -50px;
+    right: -64px;
+    top: -75px;
+}
+.bs-header{
+    padding: 3rem;
 }
 
 /* Experience */
 .bg-img{
-    background-image: url(../images/experience-image.png);
-    height: 25vh;
+    background-image: url(../images/experience-image.png); 
     background-size: cover;
+    background-position: center;
 }
 .bg-orange{
     background-color: #f58a07;
@@ -222,6 +217,9 @@ section{
 }
 .experience{
     gap: 0;
+}
+.exp-text{
+    margin: 5rem;
 }
 /* DREAM */
 .dream img{
@@ -243,7 +241,15 @@ section{
 .exp-text{
     text-align: center center;
 }
-
+.post-image{
+    width: 100%;
+}
+.exp-row{
+    gap: 0;
+}
+.experience{
+    height: vh;
+}
 
 /* BLOG-NEWS */
 .blog-news img{
@@ -290,7 +296,8 @@ footer .column-3{
     color: white;
 }
 .search-bar{
-    border-radius: 20px;
-    
-
+    border-radius: 20px;    
+}
+.ftr-icons{
+    gap: 40px;
 }
