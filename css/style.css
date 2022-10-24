@@ -1,5 +1,4 @@
 /* FONT */
-p{font-size: 1.3rem;}
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -57,24 +56,25 @@ section{
 }
 .menu li{
     padding: 0 1rem;
-    font-size: 1.3rem;
 }
 
 .main-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: -4rem;
 }
 
 .header-logo{
     font-size: 1.5rem ;
     color:#063255 ;
 }
-.cta-btn{
-    background-color: #eb9e40;
-    color: #b97522;
-    border-radius: 20px;
-    margin-left: 2rem;
+.cta-btn a{
+    background-color: #f3d7d0;
+    color: #f58a07;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    opacity: 0.8;
 }
 /* HERO-SECTION */
 .hero-img{
@@ -93,10 +93,12 @@ section{
     border-radius: 30px;
     padding: 1rem 2rem;
     margin: 1rem;
-    color: #6b491f;
+    color: #ffffff;
 }
 .hero-buttons{
-    margin: 3rem 0;
+    margin:3rem 0;
+    margin-left: -1.3rem;
+
 }
 /* .hero-text{
     padding: 3rem 0;
@@ -166,14 +168,14 @@ section{
 .back-back::before{
     position: absolute;
     content: "";
-    background-color: #e68b1dd0;
-    inset: 0 0 1% 0;
+    background-color: #f58a07;
+    inset: 0 0 3.6% 0;
     border-top-left-radius:20px;
     border-bottom-left-radius: 20px; ;
     width: 9vw;
-    opacity: 0.6;
-
+    opacity: 0.5;
 }
+
    
 
 /* Business-strategy */
@@ -184,14 +186,12 @@ section{
     
 }
 .bs-btn{
-    border: 1px solid #10283a;
-    border-radius: 20px;
-    padding:0 2rem;
-    margin: 1rem 0; 
+    border: 1px solid #063255;
+    padding: 0.5rem;
+    border-radius: 30px;
+    opacity: 0.6;
 }
-.bs-btns a{
-    margin: 2rem 0;
-}
+
 .bs-txt{
    margin-top: -5rem;
    margin-left: 2rem;
@@ -212,11 +212,8 @@ section{
 }
 .ribbon{
     position: absolute;
-    right: -64px;
+    right: -48px;
     top: -75px;
-}
-.bs-header{
-    padding: 3rem;
 }
 .team-img{
     position: relative;
@@ -224,14 +221,30 @@ section{
 .team-img::before{
     position: absolute;
     content: "";
-    background-color: #e68b1dd0;
+    background-color: #f78c09d0;
     inset: 0 0 1.6% 0;
     border-top-left-radius:20px;
     border-bottom-left-radius: 20px; ;
     width: 7vw;
-    opacity: 0.6;
+    opacity: 0.9;
+}
 
+.bs-btn1{
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 30px;
+    color: #f58a07;
+}
+    
+.business-strategy ul{
+    display: flex;
+    gap: 2.5rem;
+    color: #0e2f4910;
+    /* opacity: 0.6; */
+}
 
+.bs-header{
+    padding: 2rem;
 }
 
 
@@ -253,8 +266,26 @@ section{
 .exp-text{
     margin: 15rem 1rem;
     font-size: 1.2rem;
+    color: white;
+   
 }
-
+.exp-container{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-right: 5rem;
+}
+.exp-text a {
+    color: #f58a07;
+    height: 50px;
+    width: 150px;
+    padding:1rem;
+    background-color: white;
+    border-radius: 30px;
+    
+}
+.exp-text h2{
+    font-size: 3rem;
+}
 /* DREAM */
 .dream img{
     border-radius: 50px;
@@ -272,6 +303,9 @@ section{
     margin: 0;
     color: #f58a07;
 }
+.dream h2{
+    font-size: 3rem;
+}
 
 .post-image{
     width: 100%;   
@@ -279,9 +313,13 @@ section{
 .exp-row{
     gap: 0;
 }
-.experience{
-    height: vh;
+.play-btn{
+    position: relative;
 }
+.play-btn::after{
+    position: absolute;
+}
+
 
 /* BLOG-NEWS */
 .blog-news img{
@@ -321,16 +359,17 @@ section{
 .ftr-row{
     margin: 2rem 0;
 }
-footer .column-3{
+.footer .column-3{
     margin: 4rem 0;
 }
 .footer a{
-    color: white;
+    color: white;    
 }
  
 .footer{
     position: relative;
-    margin: 0;
+    margin-bottom: -4rem;
+    
 
 }
 .footer::after{
@@ -338,7 +377,7 @@ footer .column-3{
     content: "";
     width: 60px;
     background-color:#f58a07;
-    inset: 6% 0 40% 97%;
+    inset: 6% 0 40% 96.7%;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -352,14 +391,10 @@ footer .column-3{
 }
 .footer i{
     padding: 1rem;
-    /* font-size: 1.3rem; */
        
 }
 .ftr-last-r{
-   padding-bottom: 4rem;
-}
-.privacy{
-    /* margin-right: -42rem; */
+   margin-top: -6rem;
 }
 .bespoke{
     font-size: 2rem;
@@ -379,5 +414,13 @@ footer .column-3{
     padding: 0.8rem 3rem;
     width: 250px;
     border-radius: 30px;
-
+}
+.copyright{
+    font-size: 1rem;
+}
+.copyright::before{
+    content:"\00a9";
+}
+.privacy a{
+    padding: 1rem;
 }
