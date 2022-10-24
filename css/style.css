@@ -4,6 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -159,6 +160,20 @@ section{
 .energy h4{
     font-size: 1.5rem;
 }
+.back-back{
+    position: relative;
+}
+.back-back::before{
+    position: absolute;
+    content: "";
+    background-color: #e68b1dd0;
+    inset: 0 0 1% 0;
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px; ;
+    width: 9vw;
+    opacity: 0.6;
+
+}
    
 
 /* Business-strategy */
@@ -203,6 +218,22 @@ section{
 .bs-header{
     padding: 3rem;
 }
+.team-img{
+    position: relative;
+}
+.team-img::before{
+    position: absolute;
+    content: "";
+    background-color: #e68b1dd0;
+    inset: 0 0 1.6% 0;
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px; ;
+    width: 7vw;
+    opacity: 0.6;
+
+
+}
+
 
 /* Experience */
 .bg-img{
@@ -216,11 +247,14 @@ section{
     margin: 4rem 0 ;  
 }
 .experience{
+    position: relative;
     gap: 0;
 }
 .exp-text{
-    margin: 5rem;
+    margin: 15rem 1rem;
+    font-size: 1.2rem;
 }
+
 /* DREAM */
 .dream img{
     border-radius: 50px;
@@ -238,11 +272,9 @@ section{
     margin: 0;
     color: #f58a07;
 }
-.exp-text{
-    text-align: center center;
-}
+
 .post-image{
-    width: 100%;
+    width: 100%;   
 }
 .exp-row{
     gap: 0;
@@ -295,9 +327,57 @@ footer .column-3{
 .footer a{
     color: white;
 }
-.search-bar{
-    border-radius: 20px;    
+ 
+.footer{
+    position: relative;
+    margin: 0;
+
 }
-.ftr-icons{
-    gap: 40px;
+.footer::after{
+    position: absolute;
+    content: "";
+    width: 60px;
+    background-color:#f58a07;
+    inset: 6% 0 40% 97%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.footer::before{
+    position: absolute;
+    content: "";
+    background-color: #f58a07;
+    inset: 60% 0 0 0;
+    border-top-right-radius: 10px;
+    width: 50px;
+}
+.footer i{
+    padding: 1rem;
+    /* font-size: 1.3rem; */
+       
+}
+.ftr-last-r{
+   padding-bottom: 4rem;
+}
+.privacy{
+    /* margin-right: -42rem; */
+}
+.bespoke{
+    font-size: 2rem;
+}
+.footer li{
+    padding: 0.5rem 0;
+}
+.search-bar{
+    height: 50px;
+    width: 350px;
+    border-radius: 30px;
+    padding: 0 1rem;
+}
+.s-btn{ 
+    background-color: #f58a07;
+    height: 50px;
+    padding: 0.8rem 3rem;
+    width: 250px;
+    border-radius: 30px;
+
 }
