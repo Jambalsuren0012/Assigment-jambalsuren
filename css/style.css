@@ -3,7 +3,11 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+p{color: #1d3444;}
 
+text{
+    color: #1d3444;
+}
 a{
     text-decoration: none;
     color: black;
@@ -84,7 +88,7 @@ section{
 }
 .hero-text h1{
     font-size: 4rem;
-    color: #063255;
+    color: #1d3444;
     margin-bottom: -1rem;
 }
 .sos-btn{
@@ -112,7 +116,7 @@ section{
 /* SECTORS */
 .sectors h2{
     font-size: 2.5rem;
-   color: #063255; 
+   color: #1d3444; 
 }
 
 /* SERVICES-SECTION */
@@ -434,6 +438,7 @@ section{
 }
 .copyright{
     font-size: 1rem;
+    color: white;
 }
 .copyright::before{
     content:"\00a9";
@@ -641,7 +646,7 @@ section{
     border-radius: 30px;
 }
 .layout-5 h1{
-    color: #063255;
+    color: #1d3444;
     font-size: 4rem;
     line-height: 4rem;
 }
@@ -706,4 +711,23 @@ textarea{
 }
 .submit{
     padding-bottom: 2rem;
+}
+/* layout7 */
+#messeage{
+    height: 24vh;
+}
+.map{
+    border-radius: 20px;
+    width: 100%;
+}
+.layout-7 h1{
+    font-size: 3rem;
+    line-height: 4rem;
+    color: #1d3444;
+}
+.cypercity{
+    padding-top: 3rem;
+}
+.with-us{
+    padding-top: 3rem;
 }
