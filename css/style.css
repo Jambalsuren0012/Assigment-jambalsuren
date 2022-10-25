@@ -387,7 +387,7 @@ section{
     background-color: #f58a07;
     inset: 60% 0 0 0;
     border-top-right-radius: 10px;
-    width: 50px;
+    width: 3.12rem;
 }
 .footer i{
     padding: 1rem;
@@ -407,6 +407,7 @@ section{
     width: 350px;
     border-radius: 30px;
     padding: 0 1rem;
+    margin-bottom: 1rem;
 }
 .s-btn{ 
     background-color: #f58a07;
