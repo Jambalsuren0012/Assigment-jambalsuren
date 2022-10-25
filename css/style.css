@@ -169,11 +169,11 @@ section{
     position: absolute;
     content: "";
     background-color: #f58a07;
-    inset: 0 0 3.6% 0;
+    inset: 0 0 1% 0;
     border-top-left-radius:20px;
     border-bottom-left-radius: 20px; ;
-    width: 9vw;
-    opacity: 0.5;
+    width: 7vw;
+    mix-blend-mode: multiply;
 }
 
    
@@ -222,11 +222,11 @@ section{
     position: absolute;
     content: "";
     background-color: #f78c09d0;
-    inset: 0 0 1.6% 0;
+    inset: 0 0 1% 0;
     border-top-left-radius:20px;
     border-bottom-left-radius: 20px; ;
-    width: 7vw;
-    opacity: 0.9;
+    width: 5vw;
+    mix-blend-mode: multiply;
 }
 
 .bs-btn1{
@@ -272,7 +272,6 @@ section{
 .exp-container{
     max-width: 700px;
     margin: 0 auto;
-    margin-right: 5rem;
 }
 .exp-text a {
     color: #f58a07;
